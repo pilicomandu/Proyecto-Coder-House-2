@@ -1,0 +1,475 @@
+index.html:
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recetas de Postres</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="CSS/style.css">
+</head>
+<body>
+    <header class="bg-danger text-white text-center py-4">
+        <h1>Recetas de Postres</h1>
+        <nav>
+            <ul class="list-inline">
+                <li class="list-inline-item"><a href="index.html" class="btn btn-primary">Inicio</a></li>
+                <li class="list-inline-item"><a href="HTML/choc.html" class="btn btn-primary">Chocolina</a></li>
+                <li class="list-inline-item"><a href="HTML/turr.html" class="btn btn-primary">Turrón de Quaker</a></li>
+                <li class="list-inline-item"><a href="HTML/tor.html" class="btn btn-primary">Torta de Chocolate</a></li>
+                <li class="list-inline-item"><a href="HTML/tir.html" class="btn btn-primary">Tiramisú</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="container mt-4">
+        <section class="intro text-center mb-4">
+            <h2>¡Bienvenido a nuestro rincón dulce!</h2>
+            <p>Explora deliciosas recetas de postres, desde clásicos hasta nuevas creaciones. Cada receta está explicada paso a paso para que puedas disfrutar de preparar y saborear estas delicias.</p>
+            <img src="IMAGENES/postres.jpg" alt="Variedad de postres" class="intro-img img-fluid">
+        </section>
+
+        <section class="recipes">
+            <h2>Recetas Destacadas:</h2>
+            <div class="recipe-links row">
+                <div class="col-md-3 mb-4">
+                    <a href="HTML/choc.html" class="recipe-card card text-center">
+                        <img src="IMAGENES/chocolina.jpg" alt="Chocolina" class="card-img-top">
+                        <div class="card-body">
+                            <h3 class="card-title">Chocolina</h3>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-md-3 mb-4">
+                    <a href="HTML/turr.html" class="recipe-card card text-center">
+                        <img src="IMAGENES/turron.jpg" alt="Turrón de Quaker" class="card-img-top">
+                        <div class="card-body">
+                            <h3 class="card-title">Turrón de Quaker</h3>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-md-3 mb-4">
+                    <a href="HTML/tor.html" class="recipe-card card text-center">
+                        <img src="IMAGENES/torta.jpg" alt="Torta de Chocolate" class="card-img-top">
+                        <div class="card-body">
+                            <h3 class="card-title">Torta de Chocolate</h3>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-md-3 mb-4">
+                    <a href="HTML/tir.html" class="recipe-card card text-center">
+                        <img src="IMAGENES/tiramisu.jpg" alt="Tiramisú" class="card-img-top">
+                        <div class="card-body">
+                            <h3 class="card-title">Tiramisú</h3>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="text-center py-3">
+        <p>Recetas de Postres &copy; 2024. Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
+
+
+choc.html:   
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chocolina</title>
+    <link rel="stylesheet" href="../CSS/style.css">
+</head>
+<body>
+    <header>
+        <h2>Chocolina</h2>
+        <nav>
+            <ul>
+                <li><a href="../index.html">Inicio</a></li>
+                <li><a href="choc.html">Chocolina</a></li>
+                <li><a href="turr.html">Turrón de Quaker</a></li>
+                <li><a href="tor.html">Torta de Chocolate</a></li>
+                <li><a href="tir.html">Tiramisú</a></li>
+            </ul>
+        </nav>
+        <img src="../IMAGENES/chocolina.jpg" width="350px" height="200px" alt="Chocolina">
+    </header>
+    
+    <main>
+        <section>
+            <h3>Descripción</h3>
+            <p>La chocolina es un postre frío muy fácil de hacer y perfecto para cualquier ocasión. ¡Prueba esta receta rápida y deliciosa!</p>
+        </section>
+        <section>
+            <h3>Ingredientes:</h3>
+            <ul>
+                <li>2 paquetes grandes de chocolinas</li>
+                <li>1 kg de dulce de leche</li>
+                <li>500 g de queso crema</li>
+                <li>Leche, a gusto</li>
+            </ul>
+        </section>
+        <section>
+            <h3>Preparación:</h3>
+            <ol>
+                <li>Mezclar en un bowl el dulce de leche con el queso crema hasta lograr una pasta uniforme.</li>
+                <li>Moja las chocolinas en leche y forma capas en una fuente, alternando con la mezcla.</li>
+                <li>Refrigera por al menos una hora antes de servir.</li>
+            </ol>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Recetas de Postres. Todos los derechos reservados.</p>
+        <a href="../index.html">Volver al menú</a>
+    </footer>
+</body>
+</html>
+
+
+tir.html:  
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tiramisú</title>
+    <link rel="stylesheet" href="../CSS/style.css">
+</head>
+<body>
+    <header>
+        <h2>Tiramisú</h2>
+        <nav>
+            <ul>
+                <li><a href="../index.html">Inicio</a></li>
+                <li><a href="choc.html">Chocolina</a></li>
+                <li><a href="turr.html">Turrón de Quaker</a></li>
+                <li><a href="tor.html">Torta de Chocolate</a></li>
+                <li><a href="tir.html">Tiramisú</a></li>
+            </ul>
+        </nav>
+        <img src="../IMAGENES/tiramisu.jpg" width="350px" height="200px" alt="Tiramisú">
+    </header>
+    
+    <main>
+        <section>
+            <h3>Descripción</h3>
+            <p>El tiramisú es un postre italiano clásico, con capas de vainillas embebidas en café y una crema suave de mascarpone.</p>
+        </section>
+        <section>
+            <h3>Ingredientes:</h3>
+            <ul>
+                <li>1 taza de cacao amargo en polvo</li>
+                <li>4 cucharadas de azúcar</li>
+                <li>20 vainillas</li>
+                <li>250 g de queso mascarpone</li>
+                <li>4 huevos</li>
+                <li>250 cc de crema de leche</li>
+                <li>1 cucharada de esencia de vainilla</li>
+                <li>4 tazas de café preparado</li>
+                <li>1 copita de licor de café</li>
+            </ul>
+        </section>
+        <section>
+            <h3>Preparación:</h3>
+            <ol>
+                <li>Batir los huevos con el azúcar hasta obtener una crema espesa.</li>
+                <li>En otro bol, batir la crema de leche con el mascarpone y agregar la vainilla.</li>
+                <li>Mezclar la crema con la preparación de huevos.</li>
+                <li>Embeber las vainillas en café con licor y alternar capas con la crema en una fuente.</li>
+                <li>Refrigerar por al menos 3 horas y espolvorear con cacao antes de servir.</li>
+            </ol>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Recetas de Postres. Todos los derechos reservados.</p>
+        <a href="../index.html">Volver al menú</a>
+    </footer>
+</body>
+</html>
+
+
+
+tor.html:  
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Torta de Chocolate</title>
+    <link rel="stylesheet" href="../CSS/style.css">
+</head>
+<body>
+    <header>
+        <h2>Torta de Chocolate</h2>
+        <nav>
+            <ul>
+                <li><a href="../index.html">Inicio</a></li>
+                <li><a href="choc.html">Chocolina</a></li>
+                <li><a href="turr.html">Turrón de Quaker</a></li>
+                <li><a href="tor.html">Torta de Chocolate</a></li>
+                <li><a href="tir.html">Tiramisú</a></li>
+            </ul>
+        </nav>
+        <img src="../IMAGENES/torta.jpg" width="350px" height="200px" alt="Torta de Chocolate">
+    </header>
+    
+    <main>
+        <section>
+            <h3>Descripción</h3>
+            <p>La torta de chocolate es un clásico que nunca pasa de moda. Su textura esponjosa y su intenso sabor a cacao la convierten en la favorita de muchos.</p>
+        </section>
+        <section>
+            <h3>Ingredientes:</h3>
+            <ul>
+                <li>150 g de manteca</li>
+                <li>250 g de azúcar</li>
+                <li>1 cucharadita de esencia de vainilla</li>
+                <li>2 yemas</li>
+                <li>250 g de harina tamizada</li>
+                <li>¾ cucharadita de bicarbonato de sodio</li>
+                <li>Pizca de sal</li>
+                <li>50 g de cacao</li>
+                <li>250 cc de leche</li>
+            </ul>
+        </section>
+        <section>
+            <h3>Preparación:</h3>
+            <ol>
+                <li>Batir la manteca con el azúcar hasta obtener una preparación cremosa.</li>
+                <li>Agregar la esencia de vainilla y las yemas de a una, batiendo bien.</li>
+                <li>Incorporar la harina, el bicarbonato, la sal y el cacao, alternando con la leche.</li>
+                <li>Verter la mezcla en un molde enmantecado y hornear a temperatura moderada durante una hora.</li>
+                <li>Dejar enfriar, desmoldar y decorar con azúcar impalpable.</li>
+            </ol>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Recetas de Postres. Todos los derechos reservados.</p>
+        <a href="../index.html">Volver al menú</a>
+    </footer>
+</body>
+</html>
+
+
+
+turr.html:  
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Turrón de Quaker</title>
+    <link rel="stylesheet" href="../CSS/style.css">
+</head>
+<body>
+    <header>
+        <h2>Turrón de Quaker</h2>
+        <nav>
+            <ul>
+                <li><a href="../index.html">Inicio</a></li>
+                <li><a href="choc.html">Chocolina</a></li>
+                <li><a href="turr.html">Turrón de Quaker</a></li>
+                <li><a href="tor.html">Torta de Chocolate</a></li>
+                <li><a href="tir.html">Tiramisú</a></li>
+            </ul>
+        </nav>
+        <img src="../IMAGENES/turron.jpg" width="350px" height="200px" alt="Turrón de Quaker">
+    </header>
+    
+    <main>
+        <section>
+            <h3>Descripción</h3>
+            <p>El turrón de Quaker es un postre económico y fácil de preparar. Perfecto para acompañar el mate o un café en la merienda.</p>
+        </section>
+        <section>
+            <h3>Ingredientes:</h3>
+            <ul>
+                <li>3 paquetes de galletitas de agua</li>
+                <li>200 g de manteca</li>
+                <li>10 cucharadas de leche</li>
+                <li>100 g de chocolate en barra</li>
+                <li>40 g de cacao dulce</li>
+                <li>200 g de azúcar</li>
+                <li>250 g de avena de cocción rápida</li>
+                <li>3 o 4 cucharadas de dulce de leche tradicional</li>
+            </ul>  
+        </section>
+        <section>
+            <h3>Preparación:</h3>
+            <ol>
+                <li>Derretir la manteca junto con la leche y el chocolate en una cacerola a fuego bajo.</li>
+                <li>Agregar el dulce de leche, el cacao, el azúcar y la avena. Cocinar unos 3-4 minutos.</li>
+                <li>En una fuente, alternar capas de galletitas y la mezcla de avena.</li>
+                <li>Refrigerar por al menos una hora antes de servir.</li>
+            </ol>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Recetas de Postres. Todos los derechos reservados.</p>
+        <a href="../index.html">Volver al menú</a>
+    </footer>
+</body>
+</html>
+
+
+style.css:
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    background-color: #f5f5f5;
+}
+
+header {
+    background-color: #8b0000;
+    color: #fff;
+    padding: 15px;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    background-color: #c0392b;
+}
+
+nav ul li {
+    margin: 0 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    padding: 8px 15px;
+    display: block;
+    border-radius: 4px;
+    transition: background 0.3s ease;
+}
+
+nav ul li a:hover {
+    background-color: #e74c3c;
+}
+
+main {
+    padding: 20px;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.intro {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.intro-img {
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+    border-radius: 8px;
+    margin-top: 10px;
+}
+
+.recipes {
+    text-align: center;
+    margin-top: 40px; /* Aumentado el margen superior para más separación */
+}
+
+.recipe-links {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.recipe-card {
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+    text-align: center;
+    width: 200px;
+    padding: 15px;
+    text-decoration: none;
+    color: #333;
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.recipe-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+.recipe-card img {
+    width: 80%; /* Tamaño de la imagen */
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    margin-top: 10px; /* Margen superior para separación */
+}
+
+footer {
+    background-color: #8b0000;
+    color: #fff;
+    text-align: center;
+    padding: 15px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    margin-top: 20px;
+}
+
+footer p {
+    margin: 0;
+}
+
+body {
+    background-color: #f8f9fa;
+}
+
+header {
+    background-color: #dc3545;
+}
+
+footer {
+    background-color: #343a40;
+    color: white;
+}
+
+.intro-img {
+    max-width: 100%;
+    height: auto;
+}
+
+.recipe-card img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+aca esta todo mi proyecto, ahora hay que hacer los siguientes enunciados:
+Trasladar los estilos creados en CSS a SASS.
+
+Uso correcto del nesting, extend, los mixins, las variables y los operadores de lenguaje SASS.
+
+Estilos avanzados: Genera una estructura de elementos dinámica aplicando transformaciones, transiciones y/o animaciones.
+
+

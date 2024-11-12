@@ -1,0 +1,24 @@
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    @include flex-center;
+    background-color: $secondary-color;
+
+    li {
+        margin: 0 10px;
+
+        a {
+            text-decoration: none;
+            color: #fff;
+            padding: 8px 15px;
+            display: block;
+            border-radius: 4px;
+            @include transition(background, 0.3s);
+
+            &:hover {
+                background-color: $hover-color;
+            }
+        }
+    }
+}
